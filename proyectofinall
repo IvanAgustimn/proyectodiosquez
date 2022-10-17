@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <h1 id="titulo">Mundo Gamer</h1>
+
+    <contenedor id="desdejs"></contenedor>
+
+    <h3 class=subtitulo>Intel i3</h3>
+        <p class="parrafo">Mayores velocidades de reloj hasta alcanzar los 4 GHz. Mayor velocidad de reloj iGPU en 50 MHz y renombrado a UHD (Ultra Alta Definición) Conjunto de chips de la serie 300 en la segunda revisión del zócalo LGA 1151</p>
+
+    <h3 class=subtitulo>Intel i5</h3>
+        <p class="parrafo">La familia i5 ofrece una velocidad de procesamiento media de unos 3.5 GHz y un caché de unos 8 Mb. Evolución de la familia Intel Core i5: Intel Core i5 basados en la microarquitectura Nehalem. Es la primera generación de esta familia de procesadores, lanzada a finales de 2009.</p>
+
+    <h3 class=subtitulo>Intel i7</h3>
+        <p class="parrafo">El procesador Core i7-7700 Quad-Core de Intel tiene una velocidad de reloj base de 3.6 GHz y viene con características como Intel Turbo Boost 2.0 y la tecnología Hyper-Threading de Intel. Con la tecnología Intel Turbo Boost 2.0, la máxima frecuencia de turbo que este procesador puede alcanzar es de 4.2 GHz.</p>
+    
+<contenedor id="desdejs"></contenedor>
+
+    <br>
+
+<img id="imag" src="procesadores.jpg" alt="modelos de procesadores">
+
+<br>
+
+<h4>¿Le interesa uno amigo?</h4>  
+
+<select name="" id="modelos">
+
+    <option value="modelo1">Core i3</option>
+    <option value="modelo2">Core i5</option>
+    <option value="modelo3">Core i7</option>
+
+</select>
+
+<br>
+
+<h5>Ingrese sus datos</h5>
+
+Nombre
+<input type="text" id="nombre">
+<br>
+Apellido
+<input type="text" id="apellido">
+<br>
+<button id="boton">Registrarte</button>
+
+
+<br>
+
+<h6>¿Qué opina?¿Le intereso?</h6>
+
+<contenedor>
+
+    <button onclick="afirmar()">Si</button>
+
+    <button onclick="negar()">No</button>
+
+</contenedor>
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.33/dist/sweetalert2.all.min.js"></script>
+<script src="pf.js"></script>
+
+</body>
+
+</html>
